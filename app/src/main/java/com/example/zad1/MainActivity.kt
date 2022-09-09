@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
+
 //https://developer.android.com/develop/ui/views/layout/declaring-layout
 
 class MainActivity : AppCompatActivity() {
@@ -21,14 +22,11 @@ class MainActivity : AppCompatActivity() {
 
             when(clicks){
                 button.setTypeface(Typeface.SANS_SERIF)
-                        button.text = "Sans Sherif"
-
-            }
+                        button.text = " "  }
         }
 
-        close = findViewById<Button>(R.id.close)
+        val close = findViewById<Button>(R.id.close).setOnClickListener {
 
-        close.SetOnClickListener{
             activity.finish()
 
             System.exit(0)
