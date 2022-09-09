@@ -29,8 +29,34 @@
         android:textColor="#ADC178"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nie"
-        app:layout_constraintVertical_bias="0.435" />
+        app:layout_constraintVertical_bias="0.124" />
+
+    <Button
+        android:id="@+id/tlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#A2D2FF"
+        android:text="tlo"
+        android:textColor="#BDE0FE"
+        app:layout_constraintEnd_toStartOf="@+id/close"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tak" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        android:backgroundTint="#5F0F40"
+        android:text="close"
+        android:textColor="#E63946"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tak" />
 </androidx.constraintlayout.widget.ConstraintLayout>
